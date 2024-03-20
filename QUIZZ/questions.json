@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Histoire",
+    "questions": [
+      {
+        "text": "En quelle année Christophe Colomb a-t-il découvert l'Amérique ?",
+        "choices": ["1) 1492", "2) 1520", "3) 1456", "4) 1507"],
+        "correctAnswerIndex": 0,
+        "difficulty": "Facile"
+      },
+      {
+        "text": "Quel événement a marqué le début de la Première Guerre mondiale ?",
+        "choices": ["L'attentat de Sarajevo", "La chute du mur de Berlin", "La Révolution russe", "La déclaration de guerre de l'Allemagne à la France"],
+        "correctAnswerIndex": 0,
+        "difficulty": "Moyen"
+      }
+    ]
+  },
+  {
+    "name": "Culture générale",
+    "questions": [
+      {
+        "text": "Quel est le plus grand océan du monde ?",
+        "choices": ["L'océan Atlantique", "L'océan Arctique", "L'océan Indien", "L'océan Pacifique"],
+        "correctAnswerIndex": 3,
+        "difficulty": "Facile"
+      },
+      {
+        "text": "Qui a écrit le roman 'Les Misérables' ?",
+        "choices": ["Victor Hugo", "Alexandre Dumas", "Gustave Flaubert", "Charles Baudelaire"],
+        "correctAnswerIndex": 0,
+        "difficulty": "Moyen"
+      }
+    ]
+  }
+]
