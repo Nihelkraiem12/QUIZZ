@@ -47,15 +47,19 @@ class DataManager {
         }
     }
 }
-
+ 
 // Obtention de l'instance partagée du DataManager
 let dataManager = DataManager.shared
 
 // Affichage des catégories disponibles
-print("Catégories disponibles :")
+print("╔══════════════════════════╗")
+print("║Catégories disponibles    ║")
+print("╠══════════════════════════╣")
 for (index, category) in dataManager.categories.enumerated() {
-    print("\(index + 1). \(category.name)")
+    print("║ \(index + 1). \(category.name.padding(toLength: 22, withPad: " ", startingAt: 0)) ║")
 }
+print("╚══════════════════════════╝")
+
 
 // Demande à l'utilisateur de choisir une catégorie
 print("Choisissez une catégorie (1-\(dataManager.categories.count)) : ")
