@@ -32,5 +32,44 @@
         "difficulty": "Moyen"
       }
     ]
-  }
+  },
+  {
+  "name": "Programmation",
+  "questions": [
+    {
+      "text": "Qu'est-ce que Swift ?",
+      "choices": [
+        "Un langage de programmation pour développer des applications iOS",
+        "Un logiciel de gestion de bases de données",
+        "Un outil de développement web",
+        "Un système d'exploitation"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "Facile"
+    },
+    {
+      "text": "Quel est le résultat de 2 + 2 * 3 en Swift ?",
+      "choices": [
+        "8",
+        "10",
+        "6",
+        "12"
+      ],
+      "correctAnswerIndex": 3,
+      "difficulty": "Moyen"
+    },
+    {
+      "text": "Que signifie l'acronyme 'API' en programmation ?",
+      "choices": [
+        "Application Programming Interface",
+        "Advanced Program Integration",
+        "Automated Programming Instruction",
+        "Application Protocol Interface"
+      ],
+      "correctAnswerIndex": 0,
+      "difficulty": "Difficile"
+    }
+  ]
+}
+
 ]
